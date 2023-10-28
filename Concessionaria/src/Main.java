@@ -1,7 +1,13 @@
 import java.util.ArrayList;
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        Cliente c1 = new Cliente("George", 18);
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Qual o seu nome");
+        String nome = sc.nextLine();
+        System.out.println("Qual o sua idade");
+        int idade = sc.nextInt();
+        Cliente c1 = new Cliente(nome, idade);
         Admin a1 = new Admin("Iago");
         Estoque e1 = new Estoque();
         Motor m1 = new Motor("Honda",1.6);
