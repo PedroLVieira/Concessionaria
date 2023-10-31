@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 public class Estoque {
     ArrayList<Carro> estoquecarros = new ArrayList<>();
-
     public ArrayList<Carro> getEstoquecarros() {
         return estoquecarros;
     }
@@ -9,11 +8,9 @@ public class Estoque {
     public void setEstoquecarros(ArrayList<Carro> estoquecarros) {
         this.estoquecarros = estoquecarros;
     }
-
     public void adicionarcarros(Carro c){
         estoquecarros.add(c);
     }
-
     public void quantidadecarros(){
         System.out.println("____________________________________________");
         System.out.println("Estoque de veículos.");

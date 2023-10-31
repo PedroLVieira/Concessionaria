@@ -1,8 +1,6 @@
 import java.util.ArrayList;
-
 public class Admin extends Estoque{
     private String nome;
-
     public String getNome() {
         return nome;
     }
@@ -17,7 +15,6 @@ public class Admin extends Estoque{
 
     public Admin() {
     }
-
     public void vendecarro(Estoque e, Carro c, Cliente cli){
         System.out.println("O carro "+c.getNome()+" foi vendido para o cliente: "+ cli.getNome());
         e.removercarro(c);

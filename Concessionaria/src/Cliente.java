@@ -4,19 +4,11 @@ public class Cliente {
 
     private int idade;
 
-    private Sedan c;
     public Cliente(String nome, int idade) {
         this.nome = nome;
         this.idade = idade;
     }
 
-    public Sedan getC() {
-        return c;
-    }
-
-    public void setC(Sedan c) {
-        this.c = c;
-    }
 
     public String getNome() {
         return nome;

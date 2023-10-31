@@ -1,12 +1,10 @@
 public class Motor {
     private String fabricante;
     private double potencia;
-
     public Motor(String fabricante, double potencia) {
         this.fabricante = fabricante;
         this.potencia = potencia;
     }
-
     public String getFabricante() {
         return fabricante;
     }

@@ -1,6 +1,5 @@
 public class Pickup extends Carro{
     private boolean tracao4rodas;
-
     public Pickup(boolean tracao4rodas) {
         this.tracao4rodas = tracao4rodas;
     }
